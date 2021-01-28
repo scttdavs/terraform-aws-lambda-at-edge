@@ -7,9 +7,9 @@ variable description {
 }
 
 variable timeout {
-  type    = number
-  timeout = "Timeout of the Lambda@Edge Function"
-  default = 3
+  type        = number
+  description = "Timeout of the Lambda@Edge Function"
+  default     = 3
 }
 
 variable tags {
