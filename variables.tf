@@ -6,6 +6,12 @@ variable description {
   description = "Description of what the Lambda@Edge Function does"
 }
 
+variable timeout {
+  type    = number
+  timeout = "Tiemout of the Lambda@Edge Function"
+  default = 3
+}
+
 variable tags {
   type        = map(string)
   description = "Tags to apply to all resources that support them"
